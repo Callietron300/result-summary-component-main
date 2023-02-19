@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of final project- desktop](design/Screenshot 2023-02-19 at 11-16-34 Results summary component.png)
+![screenshot of final project- desktop](https://github.com/Callietron300/result-summary-component-main/blob/main/design/Screenshot%202023-02-19%20at%2011-16-34%20Results%20summary%20component.png?raw=true)
 
 ### Links
 
