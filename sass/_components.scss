@@ -1,0 +1,118 @@
+.score {
+  border-radius: 100%;
+  background-image: var(--gradient-dark-blue);
+  width: 13rem;
+  height: 13rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  @media only screen and (min-width: 43.75em) {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  &_result {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 800;
+    color: var(--color-white);
+
+    @media only screen and (min-width: 43.75em) {
+      font-size: 7rem;
+      line-height: 7rem;
+    }
+  }
+
+  &_total {
+    font-weight: 400;
+    color: var(--color-light-lavender);
+  }
+}
+
+.result_text {
+  text-align: center;
+  color: var(--color-light-lavender);
+}
+
+.summary_list {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary_result {
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  &.red {
+    color: var(--color-red);
+    background-color: hsla(0, 100%, 67%, 0.1);
+  }
+  &.yellow {
+    color: var(--color-yellow);
+    background-color: hsla(39, 100%, 56%, 0.1);
+  }
+  &.green {
+    color: var(--color-green);
+    background-color: hsla(166, 100%, 37%, 0.1);
+  }
+  &.blue {
+    color: var(--color-blue);
+    background-color: hsla(234, 85%, 45%, 0.1);
+  }
+
+  &_text {
+    color: var(--color-grey);
+    font-weight: 700;
+
+    & span {
+      color: var(--color-black);
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.summary_result_icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-white);
+  margin-right: 1rem;
+}
+
+.margin {
+  margin-right: auto;
+}
+
+.button {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-dark-gray-blue);
+  border-radius: 3rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+
+  &:hover {
+    background-image: var(--gradient-btn);
+  }
+}
+
+.attribution {
+  margin-top: 5rem;
+}

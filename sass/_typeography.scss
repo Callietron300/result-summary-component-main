@@ -1,0 +1,20 @@
+.heading-secondary {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+
+  &.grey {
+    color: var(--color-light-lavender);
+  }
+
+  &.black {
+    color: var(--color-black);
+    align-self: flex-start;
+  }
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
