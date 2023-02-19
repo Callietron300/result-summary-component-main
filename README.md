@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of final project- desktop](.design/Screenshot 2023-02-19 at 11-16-34 Results summary component.png)
+![screenshot of final project- desktop](design/Screenshot 2023-02-19 at 11-16-34 Results summary component.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://callietron300.github.io/result-summary-component-main/](https://callietron300.github.io/result-summary-component-main/)
+- Live Site URL: [link](https://callietron300.github.io/result-summary-component-main/)
 
 ## My process
 
